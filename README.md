@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 1. Objetivo da Atividade
+Praticar a criação e reutilização de componentes funcionais com Next.js, utilizando
+propriedades (props) para exibir dados dinâmicos de forma organizada e reutilizável.
 
-## Getting Started
+## 2. Descrição da Atividade
+Você está desenvolvendo a interface de um catálogo online de produtos para uma loja
+virtual. A loja deseja exibir uma lista de produtos contendo: nome, descrição, preço e
+imagem.
+O desafio é construir essa página utilizando os conceitos de componentização e props,
+separando adequadamente os elementos visuais em componentes reutilizáveis.
+O estilo da página e dos cards de produto fica a critério de vocês, mas o foco deve ser a
+aplicação correta dos conceitos aprendidos.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 3. Requisitos da Atividade
+1. Os dados dos produtos podem ser mockados (definidos em um array local).
+2. Devem ser exibidos no mínimo 10 produtos.
+3. A página deve ter uma estilização básica, que pode ser feita com CSS tradicional,
+CSS Modules, TailwindCSS ou outro framework de sua escolha.
+4. Os componentes devem estar organizados na pasta components/ (fora de
+pages ou app).
+5. O código deve ser publicado no GitHub.
+6. Bônus: Realizar o deploy na Vercel e adicionar recursos extras (ex: botão "Ver
+mais", responsividade, filtro, etc).
+7. Adicionar o link do repositório e do deploy (caso tenha feito) à atividade
